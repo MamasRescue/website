@@ -20,11 +20,11 @@ function onKeyUp (event) {
       <input type="text" :placeholder="$t('signup.email')" v-model="email" />
       <input type="password" :placeholder="$t('signup.password')" v-model="password" />
       <div class="flex">
-        <Button style="neutral" link="/" class="mr-auto">
+        <Button type="ghost" link="/" class="mr-auto">
           <nuxt-icon name="arrow-left" filled />
           {{ $t('common.returnHome') }}
         </Button>
-        <Button class="mr-auto">{{ $t('login.submit') }}</Button>
+        <Button class="mr-auto" type="primary">{{ $t('login.submit') }}</Button>
       </div>
     </form>
   </div>

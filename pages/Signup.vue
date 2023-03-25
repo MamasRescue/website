@@ -23,11 +23,11 @@ function onKeyUp (event) {
       <input type="password" :placeholder="$t('signup.password')" v-model="password" />
       <input type="password" :placeholder="$t('signup.passwordConfirm')" v-model="passwordConfirm" />
       <div class="flex">
-        <Button style="neutral" link="/" class="mr-auto">
+        <Button type="ghost" link="/" class="mr-auto">
           <nuxt-icon name="arrow-left" filled />
           {{ $t('common.returnHome') }}
         </Button>
-        <Button class="mr-auto" link="/services">{{ $t('signup.submit') }}</Button>
+        <Button class="mr-auto" link="/services" type="primary">{{ $t('signup.submit') }}</Button>
       </div>
     </form>
   </div>

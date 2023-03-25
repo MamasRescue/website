@@ -10,7 +10,7 @@ body {
 }
 
 input[type="text"], input[type="email"], input[type="password"] {
-  @apply border-2 border-gray-300 bg-white px-4 py-3 rounded-lg;
+  @apply border-2 placeholder:text-secondary-800/50 border-secondary-300 bg-secondary-50 px-4 py-3 rounded-lg;
 }
 
 .page-enter-active,

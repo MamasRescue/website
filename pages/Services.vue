@@ -103,9 +103,8 @@
                   </p>
                   <h2 class="mt-4 text-2xl font-medium text-gray-700 sm:text-4xl"><span class="">$3.00 </span><span
                       class="text-base font-medium">/Month</span></h2>
-                  <p class="mt-1"> Yearly payment </p><button id="codAvb"
-                    class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-300 transform rounded-md  focus:ring-opacity-80 bg-primary-500 hover:bg-primary-700">
-                    Start Now </button>
+                  <p class="mt-1"> Yearly payment </p>
+                  <Button link="questionnaire" type="primary">{{ $t('common.choose') }}</Button>
                 </div>
                 <hr class="border-gray-800 " />
                 <div class="p-6">
@@ -157,9 +156,8 @@
                   </p>
                   <h2 class="mt-4 text-2xl font-medium text-gray-700 sm:text-4xl"><span class="">$50.00 </span><span class="text-base font-medium">/life
                       time</span></h2>
-                  <p class="mt-1 text-gray-500"> One time payment </p><button id="ofaBph"
-                    class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-300 transform rounded-md focus:ring-opacity-80 bg-primary-500 hover:bg-primary-700">
-                    Start Now </button>
+                  <p class="mt-1 text-gray-500"> One time payment </p>
+                  <Button link="questionnaire" type="primary">{{ $t('common.choose') }}</Button>
                 </div>
                 <hr class="border-gray-800 " />
                 <div class="p-6">
