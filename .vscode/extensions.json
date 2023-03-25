@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "kamikillerto.vscode-colorize",
+    "editorconfig.editorconfig",
+    "streetsidesoftware.code-spell-checker-french",
+    "michelemelluso.gitignore",
+    "christian-kohler.npm-intellisense",
+    "bradlc.vscode-tailwindcss",
+    "vue.volar",
+    "mikeburgh.xml-format"
+  ]
+}
