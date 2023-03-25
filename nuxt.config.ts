@@ -26,6 +26,7 @@ const messagesFr = {
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
+    'nuxt-icons',
   ],
   css: ['~/assets/main.css'],
   postcss: {
