@@ -54,6 +54,15 @@ const messagesFr = {
     questionTiredAnswer1: 'Pas du tout',
     questionTiredAnswer2: 'Un peu',
     questionTiredAnswer3: 'Beaucoup',
+  },
+  dashboard: {
+    program1: 'Mieux dormir',
+    program2: 'Manger mieux',
+    program3: 'Gérer son stress',
+    program4: 'Réduire son anxiété',
+    program5: 'Gérer ses émotions',
+    warningTitle: 'Attention !',
+    warningContent: 'Bien que ces programmes puissent fournir des suggestions utiles à titre informatif, ils ne peuvent en aucun cas remplacer l\'expertise et les conseils d\'un professionnel de la santé. Chaque individu est unique et présente des particularités physiologiques qui ne peuvent être prises en compte que par un spécialiste qualifié.'
   }
 }
 

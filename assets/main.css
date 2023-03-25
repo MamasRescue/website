@@ -23,3 +23,12 @@ input[type="text"], input[type="email"], input[type="password"] {
   opacity: 0;
   filter: blur(1rem);
 }
+
+.prose {
+  color: var(--tw-prose-body);
+  max-width: inherit;
+}
+
+h1 + h2 {
+  margin-top: 0 !important;
+}

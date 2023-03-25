@@ -16,8 +16,8 @@ function onKeyUp (event) {
 
 <template>
   <div class="grid mx-auto max-w-md" @keyup="onKeyUp">
-    <h1 class="text-4xl font-bold">{{ $t('signup.title') }}</h1>
-    <p class="text-xl my-4">{{ $t('signup.subtitle') }}</p>
+    <h1>{{ $t('signup.title') }}</h1>
+    <h2>{{ $t('signup.subtitle') }}</h2>
     <form class="flex flex-col gap-6">
       <input type="text" :placeholder="$t('signup.email')" v-model="email" />
       <input type="password" :placeholder="$t('signup.password')" v-model="password" />

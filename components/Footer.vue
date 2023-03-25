@@ -19,7 +19,7 @@ const links = [
     </div>
     <div class="grid bg-gradient-to-t from-secondary-200 to-secondary-100 relative gap-6 p-6 text-center">
       <div class="grid grid-cols-2 gap-3">
-        <nuxt-link class="border-b border-current mx-auto" v-for="link in links" :key="link.name" :to="link.href">
+        <nuxt-link class="mx-auto" v-for="link in links" :key="link.name" :to="link.href">
           {{ $t(`links.${link.name}`) }}
         </nuxt-link>
       </div>
