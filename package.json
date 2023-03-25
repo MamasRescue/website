@@ -8,9 +8,8 @@
   "name": "mamas-rescue",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
     "postinstall": "nuxt prepare",
     "preview": "nuxt preview"
   }
