@@ -18,7 +18,7 @@ const links = [
 
 <style>
 .link-home {
-  @apply text-primary-700 font-bold;
+  @apply text-primary-700 font-bold text-2xl;
 }
 .link:not(.link-home) {
   @apply border-b-2 border-primary-700 hover:border-primary-400;
