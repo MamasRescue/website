@@ -27,7 +27,7 @@ function onKeyUp (event) {
           <nuxt-icon name="arrow-left" filled />
           {{ $t('common.returnHome') }}
         </Button>
-        <Button class="mr-auto">{{ $t('signup.submit') }}</Button>
+        <Button class="mr-auto" link="/services">{{ $t('signup.submit') }}</Button>
       </div>
     </form>
   </div>
