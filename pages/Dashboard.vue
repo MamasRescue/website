@@ -33,7 +33,3 @@ const programs = [
   @apply flex bg-cover flex-col justify-center items-center gap-6 px-12 py-24 rounded-lg shadow-xl;
 }
 </style>
-
-backgroundImage(
-  b
-)
