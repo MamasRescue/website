@@ -1,18 +1,16 @@
 <script setup>
 const programs = [
-  { name: 'program1', href: '/program1', image: 'https://picsum.photos/200/400' },
-  { name: 'program2', href: '/program2', image: 'https://picsum.photos/250/300' },
-  { name: 'program3', href: '/program3', image: 'https://picsum.photos/200/320' },
-  { name: 'program4', href: '/program4', image: 'https://picsum.photos/210/300' },
-  { name: 'program5', href: '/program5', image: 'https://picsum.photos/200/330' },
+  { name: 'program1', href: '/program1', image: 'https://zupimages.net/up/23/12/ul2t.png', pos: 'center' },
+  { name: 'program2', href: '/program2', image: 'https://zupimages.net/up/23/12/nyyi.png', pos: 'center' },
+  { name: 'program3', href: '/program3', image: 'https://zupimages.net/up/23/12/nf69.png', pos: 'center' },
 ]
 </script>
 
 <template>
   <div class="container mx-auto">
-    <h1>Dashboard</h1>
+    <h1>Tableau de bord</h1>
     <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
-      <nuxt-link :style="{ backgroundImage: `url(${program.image})` }" :class="['program', `program-${program.name}`]" v-for="program in programs"
+      <nuxt-link :style="{ backgroundImage: `url(${program.image})`, backgroundPosition: `${program.pos}` }" :class="['program', `program-${program.name}`]" v-for="program in programs"
         :key="program.name" :to="program.href">
         {{ $t(`dashboard.${program.name}`) }}
       </nuxt-link>
@@ -23,7 +21,7 @@ const programs = [
         <h3 class="font-bold text-lg">{{ $t('dashboard.warningTitle') }}</h3>
         <p class="py-4">{{ $t('dashboard.warningContent') }}</p>
         <div class="modal-action">
-          <label for="my-modal" class="btn">Yay!</label>
+          <label for="my-modal" class="btn">D'accord</label>
         </div>
       </div>
     </div>
@@ -35,3 +33,7 @@ const programs = [
   @apply flex bg-cover flex-col justify-center items-center gap-6 px-12 py-24 rounded-lg shadow-xl;
 }
 </style>
+
+backgroundImage(
+  b
+)

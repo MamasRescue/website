@@ -3,26 +3,36 @@ const questions = [
   {
     label: "questionFeel",
     options: [
-      { label: 'questionFeelAnswer1', value: 5 },
-      { label: 'questionFeelAnswer2', value: 4 },
-      { label: 'questionFeelAnswer3', value: 3 },
-      { label: 'questionFeelAnswer4', value: 2 },
-      { label: 'questionFeelAnswer5', value: 1 },
+      { label: 'questionFeelAnswer1', value: 4 },
+      { label: 'questionFeelAnswer2', value: 3 },
+      { label: 'questionFeelAnswer3', value: 2 },
+      { label: 'questionFeelAnswer4', value: 1 },
     ],
   },
   {
     label: "questionSleep",
     options: [
-      { label: 'questionSleepAnswer1', value: 1 },
-      { label: 'questionSleepAnswer2', value: 0 },
+      { label: 'questionSleepAnswer1', value: 3 },
+      { label: 'questionSleepAnswer2', value: 2 },
+      { label: 'questionSleepAnswer3', value: 1 },
+      { label: 'questionSleepAnswer4', value: 0 },
     ],
   },
   {
     label: "questionTired",
     options: [
-      { label: 'questionTiredAnswer1', value: 2 },
-      { label: 'questionTiredAnswer2', value: 1 },
-      { label: 'questionTiredAnswer3', value: 0 },
+      { label: 'questionTiredAnswer1', value: 1 },
+      { label: 'questionTiredAnswer2', value: 0 },
+    ],
+  },
+  {
+    label: "questionBaby",
+    options: [
+      { label: 'questionBabyAnswer1', value: 3 },
+      { label: 'questionBabyAnswer2', value: 2 },
+      { label: 'questionBabyAnswer3', value: 1 },
+      { label: 'questionBabyAnswer4', value: 0 },
+
     ],
   },
 ]
