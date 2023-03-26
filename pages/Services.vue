@@ -12,8 +12,8 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
               </svg></span></div>
           <div class="p-4 md:p-6">
-            <h3 class="text-lg md:text-xl font-semibold mb-2">Questionnaire</h3>
-            <p class="">Le questionnaire permet la conception des programmes, mais également la détection des prémices des pathologies liées au post-partum.</p>
+            <h3 class="text-lg md:text-xl font-semibold mb-2">Personnalisation</h3>
+            <p class="">Un questionnaire permet la conception des programmes, mais également la détection des prémices des pathologies liées au post-partum.</p>
           </div>
         </div>
         <div class="flex bg-secondary-100 border border-secondary-700 rounded-lg divide-x">
@@ -22,9 +22,8 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
               </svg></span></div>
           <div class="p-4 md:p-6">
-            <h3 class="text-lg md:text-xl font-semibold mb-2">Security</h3>
-            <p class="text-gray-500">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a
-              real written text.</p>
+            <h3 class="text-lg md:text-xl font-semibold mb-2">Prevention du risque</h3>
+            <p class="text-gray-500">Intégration d'une littérature scientifique au questionnaire permettant le repérage des pathologies liées à la maternité</p>
           </div>
         </div>
         <div class="flex bg-secondary-100 border border-secondary-700 rounded-lg divide-x">
@@ -33,9 +32,8 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
               </svg></span></div>
           <div class="p-4 md:p-6">
-            <h3 class="text-lg md:text-xl font-semibold mb-2">Cloud</h3>
-            <p class="text-gray-500">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a
-              real written text.</p>
+            <h3 class="text-lg md:text-xl font-semibold mb-2">Réaffirmation de soi</h3>
+            <p class="text-gray-500">Permettre aux jeunes mamans de reprendre confiance en elles, de briser leur isolement, le tout grâce à cet outil </p>
           </div>
         </div>
       </div>
