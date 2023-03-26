@@ -23,7 +23,7 @@ const links = [
           {{ $t(`links.${link.name}`) }}
         </nuxt-link>
       </div>
-      <p class="text-primary-700">Mama's Rescue © 2023</p>
+      <p class="text-primary-700">Mamas Rescue © 2023</p>
     </div>
   </footer>
 </template>

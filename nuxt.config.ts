@@ -9,7 +9,7 @@ const messagesFr = {
     choose: 'Choisir',
   },
   home: {
-    welcome: 'Bonjour et bienvenue sur Mama\'s Rescue !',
+    welcome: 'Bonjour et bienvenue sur Mamas Rescue !',
   },
   links: {
     home: 'MR.',
@@ -27,7 +27,7 @@ const messagesFr = {
   },
   signup: {
     title: 'Créer mon compte',
-    subtitle: 'Créer mon compte Mama\'s Rescue',
+    subtitle: 'Créer mon compte Mamas Rescue',
     email: 'Adresse email',
     password: 'Mot de passe',
     passwordConfirm: 'Confirmer le mot de passe',
@@ -35,12 +35,12 @@ const messagesFr = {
   },
   login: {
     title: 'Connexion',
-    subtitle: 'Connexion à Mama\'s Rescue',
+    subtitle: 'Connexion à Mamas Rescue',
     submit: 'Se connecter',
   },
   questionnaire: {
     title: 'Questionnaire',
-    subtitle: 'Questionnaire Mama\'s Rescue',
+    subtitle: 'Questionnaire Mamas Rescue',
     questionFeel: 'Tu as donné naissance a ?',
     questionFeelAnswer1: 'Un bébé',
     questionFeelAnswer2: 'Des jumeaux',
